@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-let storyText = '今日は気温 摂氏-1度で外は寒かった。:insertx:は外へ出かけた。:inserty:へいく道中で、大きな池が凍っていた。:insertx:は、そこでスケートをしようと凍った池の上に乗っかると、:insertz:。:insertx:はあまりのショックに一回自分の家に帰ることにした。それを見ていた体重50㎏の:insertx:は驚いていたがBobは笑っていた。';
+let storyText = '今日は気温 摂氏-1度で外は寒かった。:insertx:は外へ出かけた。:inserty:へいく道中、大きな池が凍っていた。そこでスケートをしようと凍った池の上に乗っかると、:insertz:。それを見ていた体重50㎏の:insertx:は驚いていたがBobは笑っていた。';
 let insertX = ['津田梅子さん','ドナルド','安倍晋三'];
 let insertY = ['友達の家','スーパー','恋人の家'];
 let insertZ = ['氷が割れて池に落っこちた','滑って転んでけがをした','池の管理人に怒られた'];
