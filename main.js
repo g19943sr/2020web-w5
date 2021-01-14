@@ -32,8 +32,8 @@ function result() {
   }
 
   if(document.getElementById("日本").checked) {
-    const weight = Math.round(300*0.0714286) + ' stone';
-    const temperature =  Math.round((94-32) * 5 / 9) + ' centigrade';
+    const weight = Math.round(300*0.0714286) + 'ポンド';
+    const temperature =  '華氏' + Math.round((94-32) * 5 / 9);
     newStory = newStory.replace('摂氏-1度',temperature);
     newStory = newStory.replace('体重50kg',weight);
   }
